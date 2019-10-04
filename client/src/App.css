@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -31,3 +32,61 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  align-items: center;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  padding: 0 3%;
+  width: 100%;
+  background: purple;
+}
+
+.dark-mode_toggle {
+  background: whitesmoke;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggle {
+  background: cyan;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
+}
+
+.dark-mode {
+  background-image: url("https://i.ibb.co/bJx0yX9/world-cup.png");
+  background-size:contain;
+ 
+}
+.dark-modeNav {
+  background-color: rgb(44, 44, 44);
+  align-items: center;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  padding: 0 3%;
+  width: 100%;
+  box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+  color: white;
+}
+
+.playercard {
+  margin: 2rem;
+  
+}
+
